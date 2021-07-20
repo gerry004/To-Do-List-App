@@ -102,8 +102,7 @@ this was meant for data consistency, but could my addItem function work too?
         updateItem,
         completeItem,
         clearList,
-        showTodos,
-        getExistingTodos
+        showTodos
     }
 }
 
