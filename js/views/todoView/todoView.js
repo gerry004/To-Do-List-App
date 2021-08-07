@@ -11,19 +11,6 @@ function TodoView() {
     }
   }
 
-  const deleteTodo = (todoId) => {
-    document.getElementById(todoId).remove();
-  }
-
-  const completeTodo = (todoId) => {
-    const listItem = document.getElementById(todoId);
-    listItem.style.textDecoration = (listItem.style.textDecoration=='line-through') ? '' : 'line-through';
-  }
-
-  const clearList = () => {
-    todoList.innerHTML = "";
-  }
-
   const createListItem = (todo) => { 
     const listItem = document.createElement('li'); 
     listItem.appendChild(createListTextElement(todo.description));
@@ -53,6 +40,19 @@ function TodoView() {
     const att = document.createAttribute(attribute);
     att.value = value;
     element.setAttributeNode(att);
+  }
+
+  const deleteTodo = (todoId) => {
+    document.getElementById(todoId).remove();
+  }
+
+  const completeTodo = (todoId) => {
+    const listItem = document.getElementById(todoId);
+    listItem.style.textDecoration = (listItem.style.textDecoration=='line-through') ? '' : 'line-through';
+  }
+
+  const clearList = () => {
+    todoList.innerHTML = "";
   }
 
   return {
