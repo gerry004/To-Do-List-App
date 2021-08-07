@@ -24,13 +24,13 @@ function ToDoModel() {
   }
 
   const getIncompleteTodos = () => {
-    let completedTodos = []
+    let incompleteTodos = []
     for (let i = 0; i < todos.length; i++) { 
         if (!todos[i].isComplete) {
-            completedTodos.push(todos[i]);
+            incompleteTodos.push(todos[i]);
         }
     }
-    return completedTodos;
+    return incompleteTodos;
   }
 
   const updateLocalStorage = () => { 
