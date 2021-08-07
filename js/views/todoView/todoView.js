@@ -55,11 +55,16 @@ function TodoView() {
     todoList.innerHTML = "";
   }
 
+  const clearInputBox = () => {
+    document.querySelector('.gtd-ctrl__todo-input').value = "";
+  }
+
   return {
     showTodos,
     clearList,
     completeTodo,
-    deleteTodo
+    deleteTodo,
+    clearInputBox
   };
 }
 

@@ -24,9 +24,9 @@ function TodoController(models, views) {
 
   addBtn.onclick = () => {
     const description = todoInput.value;
-    todoInput.value = "";
     todoModel.addTodo(description);
     todoView.showTodos(todoModel.getTodos());
+    todoView.clearInputBox();
     createEventListeners(deleteButtons, deleteTodo);
     createEventListeners(doneButtons, completeTodo);
   }
@@ -34,6 +34,7 @@ function TodoController(models, views) {
   clearBtn.onclick = () => {
     todoModel.clearList();
     todoView.clearList();
+    todoView.clearInputBox();
   }
 
   const deleteTodo = (e) => {
