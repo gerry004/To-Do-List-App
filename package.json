@@ -1,0 +1,30 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerry004/playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerry004/playground/issues"
+  },
+  "homepage": "https://github.com/gerry004/playground#readme",
+  "devDependencies": {
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
