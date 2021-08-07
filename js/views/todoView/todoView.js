@@ -35,9 +35,9 @@ function TodoView() {
     return listItem;
   }
 
-  const createListTextElement = (text) => {
+  const createListTextElement = (todoDescription) => {
     const textElement = document.createElement('p');
-    textElement.innerHTML = text; 
+    textElement.innerHTML = todoDescription; 
     return textElement;
   }
 
