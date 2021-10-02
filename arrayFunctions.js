@@ -134,3 +134,6 @@ console.log(numArray.some(isGreaterThanTen));
 
 console.log('commiting to github')
 console.log('testing my commit to github')
+
+console.log('commiting to github')
+console.log('testing my commit to github')
