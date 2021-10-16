@@ -133,3 +133,5 @@ const isGreaterThanTen = (value) => {
 console.log(numArray.some(isGreaterThanTen));
 
 console.log(numArray.some(isGreaterThanTen));
+
+console.log(numArray.some(isGreaterThanTen));
