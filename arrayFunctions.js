@@ -130,14 +130,4 @@ const isGreaterThanTen = (value) => {
 }
 // some - if one True value, returns True
 
-console.log(numArray.some(isGreaterThanTen));
-
-console.log(numArray.some(isGreaterThanTen));
-
-console.log(numArray.some(isGreaterThanTen));
-
-console.log(numArray.some(isGreaterThanTen));
-
-console.log(numArray.some(isGreaterThanTen));
-
-console.log(numArray.some(isGreaterThanTen));
+console.log("this is amazing")
