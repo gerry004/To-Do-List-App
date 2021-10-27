@@ -133,3 +133,7 @@ const isGreaterThanTen = (value) => {
 console.log("this is amazing")
 
 console.log("this is amazing")
+
+const isGreaterThanNine = (value) => {
+    return value > 9;
+}
