@@ -131,3 +131,5 @@ const isGreaterThanTen = (value) => {
 // some - if one True value, returns True
 
 console.log("this is amazing")
+
+console.log("this is amazing")
