@@ -10,7 +10,3 @@ import todoView from './js/views/todoView/todoView';
 const tdm = todoModel();
 const tdv = todoView();
 const tdc = todoController({todoModel: tdm}, {todoView: tdv});
-
-// useless comment 
-
-// why won't this work
