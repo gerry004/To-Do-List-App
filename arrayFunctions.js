@@ -4,6 +4,8 @@ function ArrayFunctions() {
     // data space
     let numArray = [];
     let strArray = [];
+    
+    
 
     // power space
     const getNumArray = () => numArray;
